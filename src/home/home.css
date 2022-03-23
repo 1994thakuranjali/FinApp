@@ -1,0 +1,70 @@
+.home-container {
+    padding: 100px 20px 60px 20px;
+    overflow-y: hidden;
+
+}
+td{
+    padding-right: 100px;
+}
+thead {
+    font-weight: bold;
+}
+
+/* #finTable tr:nth-child(even){background-color: #f2f2f2;} */
+/* #finTable tr:hover {background-color: #ddd;} */
+/* #finTable thead tr:hover {background-color: #555;} */
+
+#finTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+#finTable td, #finTable th {
+    /* border: 1px solid #ddd; */
+    border: 1px solid black;
+    padding: 5px;
+  }
+#finTable thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #555;
+    color: white;
+  }
+
+.searchBar{
+    background-color: #ddd;
+    width: 100%;
+    height: 35px;
+    align-content: center;
+    border: 2px solid #fff;
+    position: relative;
+    float: right;
+ }
+.searchIcon{
+    position: relative;
+    top: 7px;
+    padding-left: 5px;
+}
+.Credit{
+    background-color: rgb(105, 145, 105);
+}
+.Macro{
+    background-color: white;
+}
+.Equities{
+    background-color: rgb(108, 108, 136);
+}
+.textRed{
+    color: red;
+}
+.MuiButton-root{
+    color: #FFF;
+}
+.MuiButton-root :hover, .MuiButtonBase-root :hover,  .MuiButton-root :hover, .MuiButton-text :hover, .MuiTouchRipple-root:hover, .MuiButton-label:hover{
+    background-color:    rgb(85 85 85);
+}
+
+button:hover{
+    background-color:    rgb(85 85 85);
+}
+
